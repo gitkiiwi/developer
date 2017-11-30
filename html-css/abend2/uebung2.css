@@ -1,0 +1,29 @@
+.clearfix {
+  clear: both;
+}
+header {
+	background-color: red;
+	padding: 10px
+}
+left {
+	background-color: green;
+	float: left;
+	padding: 10px;
+	width: 20%;
+}
+main {
+	background-color: white;
+	float: left;
+	padding: 10px;
+	width: 54%;
+}
+right {
+	background-color: blue;
+	float: right;
+	padding: 10px;
+	width: 20%;
+}
+footer {
+	background-color: gray;
+	padding: 10px
+}
