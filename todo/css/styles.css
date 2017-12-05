@@ -1,6 +1,7 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 14px;
+	color: #4d4d4d;
 	background-color: #f5f5f5;
 }
 main-wrapper {
@@ -11,6 +12,7 @@ h1 {
 	font-weight: lighter;
 	text-align: center;
 }
+
 ul {
 	width:  300px;
 	margin: 0 auto;
