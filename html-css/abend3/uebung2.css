@@ -19,7 +19,6 @@ main-wrapper {
 }
 left {
 	background-color: green;
-	padding: 10px;
 }
 nav {
 	
@@ -40,9 +39,9 @@ main {
 	padding: 10px;
 	flex: 1;
 }
-.right, .left {
-flex: 0 0 12em;
-
+right, left {
+	flex: 0 0 14em;
+	padding: 10px;
 }
 footer {
 	background-color: gray;
