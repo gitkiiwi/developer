@@ -1,0 +1,74 @@
+.clearfix {
+  clear: both;
+}
+wrapper {
+	padding: 10px;
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background-color: red;
+	padding: 10px
+}
+main-wrapper {
+	background-color: pink;
+	display: flex;
+	flex-direction: row;
+}
+left {
+	background-color: green;
+}
+main {
+	background-color: white;
+	padding: 10px;
+}
+right, left {
+	padding: 10px;
+}
+footer {
+	background-color: gray;
+	padding: 10px
+}
+
+@media (min-width: 768px) {
+
+	wrapper {
+		padding: 10px;
+		background-color: yellow;
+		display: flex;
+		flex-direction:column;
+		min-height: 500px;
+	}
+	main-wrapper {
+		flex-direction: row;
+   	 flex: 1;
+	}
+	left {
+		background-color: green;
+	}
+	nav {
+
+	}
+	.button {
+		display:block;
+		background-color:black;
+		text-decoration:none;
+		color:white;
+		padding:10px;
+		border:1px solid white;
+	}
+	.button:hover {
+		background-color:yellow;
+	}
+	main {
+		background-color: white;
+		padding: 10px;
+		flex: 1;
+	}
+	right, left {
+		flex: 0 0 14em;
+		padding: 10px;
+	}
+
+}
