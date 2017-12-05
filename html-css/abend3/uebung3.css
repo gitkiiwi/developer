@@ -14,7 +14,7 @@ header {
 main-wrapper {
 	background-color: pink;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 left {
 	background-color: green;
