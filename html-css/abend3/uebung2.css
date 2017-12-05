@@ -1,17 +1,25 @@
 .clearfix {
   clear: both;
 }
+wrapper {
+	padding: 10px;
+	background-color: yellow;
+	display: flex;
+	flex-direction:column;
+	min-height: 500px;
+}
 header {
 	background-color: red;
 	padding: 10px
 }
+main-wrapper {
+	background-color: pink;
+	display: flex;
+	flex: 1; 
+}
 left {
 	background-color: green;
-	float: left;
 	padding: 10px;
-	width: 20%;
-	margin-bottom: -99999px;
-	padding-bottom: 99999px;
 }
 nav {
 	
@@ -29,19 +37,13 @@ nav {
 }
 main {
 	background-color: white;
-	float: left;
 	padding: 10px;
-	width: 54%;
-	margin-bottom: -99999px;
-	padding-bottom: 99999px;
+	flex: 1;
 }
-right {
-	background-color: blue;
-	float: right;
-	padding: 10px;
-	width: 20%;
-	margin-bottom: -99999px;
-	padding-bottom: 99999px;}
+.right, .left {
+flex: 0 0 12em;
+
+}
 footer {
 	background-color: gray;
 	padding: 10px
