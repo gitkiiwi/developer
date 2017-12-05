@@ -9,10 +9,11 @@ main-wrapper {
 h1 {
 	font-size: 100px;
 	font-weight: lighter;
-	text-align: left;
+	text-align: center;
 }
 ul {
 	width:  300px;
+	margin: 0 auto;
 }
 li {
 	background-color: #fff;
