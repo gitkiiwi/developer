@@ -1,0 +1,40 @@
+body {
+}
+h1 {
+	text-align: center;
+}
+#wrapper {
+    margin-top: 20px;
+	margin-left: 30px;
+	position: relative;
+}
+.header {
+	background-color: green;
+}
+.header__logo {
+	
+}
+.nav {
+	background-color: blue;
+}
+.nav__list {
+	
+}
+.nav__item {
+	
+}
+.nav__link {
+	
+}
+.btn {
+	
+}
+.btn--orange {
+	background-color: orange;
+}
+.footer {
+	
+}
+.footer__item {
+	
+}
