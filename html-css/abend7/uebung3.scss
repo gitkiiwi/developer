@@ -1,0 +1,10 @@
+@mixin triangle($direction, $sizeH, $sizeV, $color) {
+
+}
+
+
+
+.arrow-up {
+  @include triangle(top, green, 10px);
+}
+
