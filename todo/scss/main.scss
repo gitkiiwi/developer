@@ -1,0 +1,51 @@
+/**
+ * Base
+ */
+
+@import "base/reset";
+
+/**
+ * Components
+ */
+
+@import "components/colors";
+@import "components/font";
+
+
+
+
+/*****************************************************
+ * altes CSS zum überarbeiten:
+ */
+
+body {
+	font-family: $font-stack;
+	font-size: $fontSizeM;
+	color: $font-color;
+	background-color: $body-background-color;
+}
+main-wrapper {
+	
+}
+h1 {
+	font-size: $fontSizeTitle;
+	font-weight: lighter;
+	text-align: center;
+}
+
+ul {
+	width:  300px;
+	margin: 0 auto;
+}
+li {
+	background-color: $li-background-color;
+	list-style-type: none;
+	border: 1px solid #ededed;
+	padding: 10px;
+}
+.check {
+/*	float:left; */
+}
+.deletebox {
+	float:right;
+}
