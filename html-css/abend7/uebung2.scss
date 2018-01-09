@@ -1,0 +1,30 @@
+ @mixin media($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { 
+		 @content ; 
+		 }
+	 }
+    @else if $point == tablet {
+     @media (min-width: 50em) { 
+		 @content ;
+		 }
+  	 }
+  @else {
+     @media (max-width: 50em)  { 
+		 @content ; 
+	  	 }
+	 }
+}
+
+
+@include media(‘tablet’) {
+	.test {
+		background-color: greenyellow;
+	}
+}
+
+@include media(‘desktop’) {
+	.test {
+		background-color: skyblue;
+	}
+}

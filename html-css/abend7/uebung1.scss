@@ -1,0 +1,12 @@
+@mixin transition($transition...) {
+	-webkit-transition: $transition;
+    -moz-transition:    $transition;
+    -ms-transition: 	$transition;
+    -o-transition:      $transition;
+    transition:         $transition;
+}
+
+div {
+  text-decoration: none;
+  @include transition(all 0.3s linear);
+}
